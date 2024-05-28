@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(34, 38, 43);
+    /*  IMAGE BACKGROUND
+    background-image:url("../images/database.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    */
+}
+
+.card{
+    width: 400px;
+    margin: auto;
+    margin-top: 150px;
+
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.75);
+}
+
+.loginText{
+    font-size: 21px;
+    margin: 0px 0px -6px 0px;
+}
+
+.btnWidth{
+    width:140px;
+}
+
+.signUp{
+    font-size: 12px;
+    margin: 200px 0px 0px 0px;
+    color:rgb(0, 162, 255) !important;
+    text-decoration: none !important;
+}
+
+.textFields input{
+    width: 310px;
+    margin:auto;
+    margin-top:5px;
+}

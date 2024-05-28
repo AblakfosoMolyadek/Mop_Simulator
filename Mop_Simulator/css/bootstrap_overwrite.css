@@ -1,0 +1,28 @@
+table{
+    border-radius: 5px;
+    width: 50%;
+    margin: 0px auto;
+    float: none;
+}
+
+table.listTableLayout {
+    table-layout: auto;
+    min-width: 500px;
+    max-width: 960px;
+}
+
+table.editAddTableLayout {
+    table-layout: auto;
+    min-width: 500px;
+    max-width: 650px;
+}
+
+.editAddTableLayout th{
+    width:100px;
+    text-align: right;
+    vertical-align: middle !important;
+}
+
+th, td{
+    white-space:nowrap;
+}

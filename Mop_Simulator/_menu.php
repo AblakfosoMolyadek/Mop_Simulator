@@ -18,7 +18,7 @@
                     if(SiteConfig::PASSWORD_PROTECTED_WEBSITE == 1){
                         echo '
                         <div class="form-inline my-2 my-lg-0">
-                            <a href="../includes/inc.logout.php" class="btn btn-danger btn-sm">'.$_SESSION["FullName"].' <i class="fas fa-sign-out-alt"></i>  </a>
+                            <a href="../includes/inc.logout.php" class="btn btn-danger btn-sm">'.$_SESSION["Username"].' <i class="fas fa-sign-out-alt"></i>  </a>
                         </div>';
                     }
                     
